@@ -44,7 +44,7 @@ const Projects = () => {
       ];
     
       return (
-        <div className="horizontalCenter w-80 paddingMain">
+        <div className="horizontalCenter w-80 paddingMain" id="projects">
           <div className="  text-center">
             <h4 className='headingText'>Projects </h4>
           </div>
@@ -52,13 +52,13 @@ const Projects = () => {
             {ServiceData.map((data, index) => {
               return (
 
-                <div className='col-md-4'>
+                <div className='col-md-4 '>
                     {
                         (index + 1) % 3 == 0 && (
                             <div className='col-md-1'></div>
                         )
                     }
-                <div className="col-md-11 justify-content-center d-flex flex-column align-items-center border shadow text-center mt-5 servicesBox">
+                <div className="col-md-12 justify-content-center d-flex flex-column align-items-center border shadow text-center mt-5 servicesBox">
                   <div
                     style={{
                       width: "80px",
@@ -73,10 +73,11 @@ const Projects = () => {
                   <h5>{data.title}</h5>
                   <p> {data.description} </p>
                 </div>
-                {
+                {  
                         (index + 1) % 3 !== 0 && (
                             <div className='col-md-1'></div>
                         )
+                      
                     }
                 </div>
               );

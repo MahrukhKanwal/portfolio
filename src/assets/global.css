@@ -91,6 +91,7 @@
     font-size: 15px;
     line-height: 30px;
     font-weight: 400;
+    text-align: justify;
     
 }
 
@@ -127,6 +128,10 @@
     padding-top: 100px;
 
 }
+
+.aboutMainContainer{
+    flex-direction: row;
+}
 @media (max-width: 600px) {
     .profileImageContainer{
         width: 200px;
@@ -138,4 +143,18 @@
          
      
      }
+     .aboutData{
+        width: 100%;
+     }
+     .aboutMainContainer{
+        flex-direction: column;
+        line-height: 1;
+    }
+    .paraText{
+        font-size: 15px;
+        line-height: 15px;
+        font-weight: 400;
+        text-align: justify;
+        
+    }
   }

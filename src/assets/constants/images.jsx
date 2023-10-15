@@ -7,6 +7,7 @@ const IMAGES ={
     gmail:require("../Images/gmail.png"),
     facebook:require("../Images/facebook.png"),
     tpa:require("../Images/tpaLogo.jpeg"),
+    logo:require("../Images/logo.png"),
 
 
 

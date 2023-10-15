@@ -1,6 +1,7 @@
 import React from "react";
 import "../assets/global.css";
 import { IMAGES } from "../assets/constants/images";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Services = () => {
   const ServiceData = [
@@ -55,7 +56,7 @@ const Services = () => {
   ];
 
   return (
-    <div className="horizontalCenter w-80 paddingMain">
+    <div className="horizontalCenter w-80 paddingMain" id="services">
       <div className="  text-center">
         <h4 className="headingText">Services </h4>
       </div>
@@ -73,8 +74,16 @@ const Services = () => {
               >
                 <img src={data.icon} alt="" className="w-100" />
               </div>
-
-              <h5>{data.title}</h5>
+              <Link
+              to="aboutMe"
+              spy={true}
+              smooth={true}
+              offset={-70} // You may need to adjust the offset value
+              duration={500}
+            >
+            <h5>{data.title}</h5>
+            </Link>
+              
               <p> {data.description} </p>
             </div>
           );

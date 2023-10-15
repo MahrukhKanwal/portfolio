@@ -4,11 +4,11 @@ import { IMAGES } from "../assets/constants/images";
 
 const AboutMe = () => {
   return (
-    <div className="horizontalCenter w-80 paddingMain">
+    <div className="horizontalCenter w-80 paddingMain" id="aboutMe">
       <div className="  text-center  ">
         <h4 className="headingText" >About Me </h4>
       </div>
-      <div className="d-flex flex-row align-items-center justify-content-center  ">
+      <div className="d-flex align-items-center justify-content-center  aboutMainContainer ">
         <div className="aboutData aboutContainer">
           <h2 className="aboutHeader">
             Exploring the Digital Frontier: Nashra Ghaffar's Journey in Web

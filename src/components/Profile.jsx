@@ -5,7 +5,7 @@ import { IMAGES } from "../assets/constants/images";
 
 const Profile = () => {
   return (
-    <div className="d-flex  marginHeader w-80 horizontalCenter flex-wrap paddingMain">
+    <div className="d-flex  marginHeader w-80 horizontalCenter flex-wrap paddingMain" id="home">
  
       <div className="profileText ">
         <h2 className="Header ">I'm Nashra</h2>

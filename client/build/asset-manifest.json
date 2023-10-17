@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5e66768b.css",
+    "main.js": "/static/js/main.d0ea9a13.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/crsStore.png": "/static/media/crsStore.4e4961d3e07a0872f508.png",
+    "static/media/libraryDummy.png": "/static/media/libraryDummy.2641f88349bb0a0044b0.png",
+    "static/media/NashaProfile.png": "/static/media/NashaProfile.df575528cfe5d3db8ea3.png",
+    "static/media/fashionCheck.png": "/static/media/fashionCheck.bc919341f0dcab964234.png",
+    "static/media/examMaker.png": "/static/media/examMaker.dbe21ec30b7105f46985.png",
+    "static/media/hm_logo.png": "/static/media/hm_logo.b326da74a7e538d652d4.png",
+    "static/media/crm.png": "/static/media/crm.7970326c88ae970cb43a.png",
+    "static/media/strategy.png": "/static/media/strategy.1f1404d35dbffe8ae1f1.png",
+    "static/media/lms.png": "/static/media/lms.5506f68adbcf7815445e.png",
+    "static/media/maintenance.png": "/static/media/maintenance.2461055d88a53234cff0.png",
+    "static/media/logo.png": "/static/media/logo.67c4992ca346c1f0edb4.png",
+    "static/media/socialMedia.png": "/static/media/socialMedia.3b9e8710fdf65a16d991.png",
+    "static/media/cms.png": "/static/media/cms.751be93bc816e887f08d.png",
+    "static/media/ai.png": "/static/media/ai.dc638bd9ef051398169e.png",
+    "static/media/facebook.png": "/static/media/facebook.c278992ab0aa7d7328f3.png",
+    "static/media/responsive-design.png": "/static/media/responsive-design.5cc9fe0789d39719b673.png",
+    "static/media/backend.png": "/static/media/backend.4b700ce74a056bf7ebbb.png",
+    "static/media/api.png": "/static/media/api.b4448407872dc2a02104.png",
+    "static/media/frontEnd.png": "/static/media/frontEnd.edbabc3933d6506b9243.png",
+    "static/media/github.png": "/static/media/github.f11021803f68852df283.png",
+    "static/media/linkedin.png": "/static/media/linkedin.6892b3ae328c7a1e055f.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.5e66768b.css.map": "/static/css/main.5e66768b.css.map",
+    "main.d0ea9a13.js.map": "/static/js/main.d0ea9a13.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e66768b.css",
+    "static/js/main.d0ea9a13.js"
+  ]
+}

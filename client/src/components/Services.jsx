@@ -1,6 +1,7 @@
 import React from "react";
 import "../assets/global.css";
 import { IMAGES } from "../assets/constants/images";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Services = () => {
   const ServiceData = [
@@ -55,7 +56,7 @@ const Services = () => {
   ];
 
   return (
-    <div className="horizontalCenter w-80 paddingMain">
+    <div className="horizontalCenter w-80 paddingMain" id="services">
       <div className="  text-center">
         <h4 className="headingText">Services </h4>
       </div>

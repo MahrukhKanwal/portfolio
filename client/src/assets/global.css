@@ -91,6 +91,7 @@
     font-size: 15px;
     line-height: 30px;
     font-weight: 400;
+    text-align: justify;
     
 }
 
@@ -127,6 +128,10 @@
     padding-top: 100px;
 
 }
+
+.aboutMainContainer{
+    flex-direction: row;
+}
 @media (max-width: 600px) {
     .profileImageContainer{
         width: 200px;
@@ -138,4 +143,46 @@
          
      
      }
+     .aboutData{
+        width: 100%;
+     }
+     .aboutMainContainer{
+        flex-direction: column;
+        line-height: 1;
+    }
+    .paraText{
+        font-size: 15px;
+        line-height: 15px;
+        font-weight: 400;
+        text-align: justify;
+        
+    }
   }
+
+  /* Style the scrollbar track */
+::-webkit-scrollbar {
+    width: 8px; /* Adjust the width of the scrollbar */
+    background-color: #f1f1f1; /* Track color */
+  }
+  
+  /* Style the scrollbar thumb */
+  ::-webkit-scrollbar-thumb {
+    background-color: #006262; /* Thumb color */
+    border-radius: 0px; /* Rounded corners for the thumb */
+  }
+  
+  /* Change thumb color on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #014a4a;
+  }
+  
+  /* Style the scrollbar track piece (between thumb and track) */
+  ::-webkit-scrollbar-track-piece {
+    background-color: #f1f1f1; /* Track piece color */
+  }
+  
+  /* Style the scrollbar corner (between vertical and horizontal scrollbar) */
+  ::-webkit-scrollbar-corner {
+    background-color: #f1f1f1; /* Corner color */
+  }
+  

@@ -6,16 +6,18 @@ import AboutMe from './components/AboutMe';
 import Services from './components/Services';
 import ReachMe from './components/ReachMe';
 import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div  style={{width:"100%"}}  >
       
    <Navbar/>
-   <Profile/>
-   <AboutMe/>
-   <Services/>
-   <Projects/>
+   <Profile  />
+      <AboutMe  />
+      <Services />
+      <Projects  />
+      <Footer/>
 
 
 

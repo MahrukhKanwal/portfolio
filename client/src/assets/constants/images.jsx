@@ -20,6 +20,7 @@ const IMAGES ={
     crm:require("../Images/crm.png"),
     ai:require("../Images/ai.png"),
     fashionCheck:require("../Images/fashionCheck.png"),
+    logo:require("../Images/logo.png"),
 
 
 

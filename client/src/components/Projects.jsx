@@ -9,7 +9,7 @@ const Projects = () => {
       description:
         "Building the user interface and user experience components of a website or web application.",
       icon: IMAGES.botique,
-      link: "",
+      link: "https://humayun-alamgir.vercel.app/",
     },
     {
       title: "Exam Maker",
@@ -30,7 +30,7 @@ const Projects = () => {
       description:
         "Building the user interface and user experience components of a website or web application.",
       icon: IMAGES.tpa,
-      link: "",
+      link: "https://lms-rust-nu.vercel.app/",
     },
     {
       title: "CRM",

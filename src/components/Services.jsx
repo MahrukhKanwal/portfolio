@@ -11,46 +11,46 @@ const Services = () => {
       icon: IMAGES.frontEnd,
     },
     {
-      title: "Frontend Development",
+      title: "Backend Development",
       description:
-        "Building the user interface and user experience components of a website or web application.",
-      icon: IMAGES.frontEnd,
+        "Creating the server-side logic, databases, and APIs that power the functionality of a website or web application.",
+      icon: IMAGES.backEnd,
     },
     {
-      title: "Frontend Development",
+      title: "Web APIs",
       description:
-        "Building the user interface and user experience components of a website or web application.",
-      icon: IMAGES.frontEnd,
+        "Developing APIs (Application Programming Interfaces) that allow different software systems to communicate and share data.",
+      icon: IMAGES.api,
     },
     {
-      title: "Frontend Development",
+      title: "Responsive Design",
       description:
-        "Building the user interface and user experience components of a website or web application.",
-      icon: IMAGES.frontEnd,
+        "Designing and developing websites that adapt and look great on various devices, including desktops, tablets, and smartphones.",
+      icon: IMAGES.responsiveDesgin,
     },
     {
-      title: "Frontend Development",
+      title: "Maintanence & Support",
       description:
-        "Building the user interface and user experience components of a website or web application.",
-      icon: IMAGES.frontEnd,
+        "Providing ongoing updates, bug fixes, and technical support to ensure websites and applications continue to function smoothly.",
+      icon: IMAGES.maintenance,
     },
     {
-      title: "Frontend Development",
+      title: "Social Media Integration",
       description:
-        "Building the user interface and user experience components of a website or web application.",
-      icon: IMAGES.frontEnd,
+        "Integrating social media features and content sharing capabilities into websites and applications.",
+      icon: IMAGES.socialMedia,
     },
     {
-      title: "Frontend Development",
+      title: "Consulting & Strategy",
       description:
-        "Building the user interface and user experience components of a website or web application.",
-      icon: IMAGES.frontEnd,
+        "Advising clients on the best web development approaches, technologies, and strategies to achieve their business goals.",
+      icon: IMAGES.strategy,
     },
     {
-      title: "Frontend Development",
+      title: "Artificial Intelligence",
       description:
-        "Building the user interface and user experience components of a website or web application.",
-      icon: IMAGES.frontEnd,
+        "Building websites with Artifical intelligence",
+      icon: IMAGES.ai,
     },
   ];
 
@@ -59,23 +59,25 @@ const Services = () => {
       <div className="  text-center">
         <h4 className="headingText">Services </h4>
       </div>
-      <div className="d-flex flex-row align-items-center justify-content-between flex-wrap  ">
+      <div className="row">
         {ServiceData.map((data, index) => {
           return (
-            <div className="border servicesBox  shadow justify-content-center flex-column align-items-center d-flex text-center cardBorder mt-4">
-              <div
-                style={{
-                  width: "80px",
-                  height: "80px",
-                  display: "flex",
-                  alignItems: "center",
-                }}
-              >
-                <img src={data.icon} alt="" className="w-100" />
-              </div>
+            <div className="col-md-3 d-flex flex-row justify-content-center">
+              <div className="border servicesBox  shadow justify-content-center flex-column align-items-center d-flex text-center cardBorder mt-4">
+                <div
+                  style={{
+                    width: "80px",
+                    height: "80px",
+                    display: "flex",
+                    alignItems: "center",
+                  }}
+                >
+                  <img src={data.icon} alt="" className="w-100" />
+                </div>
 
-              <h5>{data.title}</h5>
-              <p> {data.description} </p>
+                <h5>{data.title}</h5>
+                <p> {data.description} </p>
+              </div>
             </div>
           );
         })}

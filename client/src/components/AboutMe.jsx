@@ -11,7 +11,7 @@ const AboutMe = () => {
       <div className="d-flex align-items-center justify-content-center  aboutMainContainer ">
         <div className="aboutData aboutContainer">
           <h2 className="aboutHeader">
-            Exploring the Digital Frontier: Nashra Ghaffar's Journey in Web
+            Exploring the Digital Frontier: Mahrukh Kanwal's Journey in Web
             Development
           </h2>
           <p className="paraText">
